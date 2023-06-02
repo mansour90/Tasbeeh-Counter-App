@@ -11,15 +11,12 @@ function add() {
 
   if (counterBox.textContent >= 100) {
     images.src = 'images/2.svg';
-    counterBox.innerText = 0;
   }
   if (counterBox.textContent >= 200) {
     images.src = 'images/3.svg';
-    counterBox.innerText = 0;
   }
   if (counterBox.textContent >= 300) {
     images.src = 'images/4.svg';
-    counterBox.innerText = 0;
   }
 }
 
